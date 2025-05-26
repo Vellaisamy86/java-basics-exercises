@@ -14,5 +14,17 @@ public class StaticChallenge {
 
     public static void main(String[] args) {
 
+        // Step 1: Create Rectangle objects
+        Rectangle rect1 = new Rectangle(5, 10);
+        Rectangle rect2 = new Rectangle(3, 4);
+        Rectangle rect3 = new Rectangle(6, 8);
+
+        // Step 2: Calculate and print area and perimeter of each rectangle
+        System.out.println("Rectangle 1 - Area: " + rect1.getArea() + ", Perimeter: " + rect1.getPerimeter());
+        System.out.println("Rectangle 2 - Area: " + rect2.getArea() + ", Perimeter: " + rect2.getPerimeter());
+        System.out.println("Rectangle 3 - Area: " + rect3.getArea() + ", Perimeter: " + rect3.getPerimeter());
+
+        // Step 3: Print the number of rectangles created
+        System.out.println("Number of rectangles created: " + Rectangle.getNumOfRectangles());
     }
 }
